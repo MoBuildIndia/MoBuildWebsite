@@ -1,0 +1,147 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Mobuild</title>
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #view-source {
+            position: fixed;
+            display: block;
+            right: 0;
+            bottom: 0;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            z-index: 900;
+        }
+    </style>
+</head>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+            <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/mobuildlogo.png">
+          </span>
+            <!-- Add spacer, to align navigation to the right in desktop -->
+            <div class="android-header-spacer mdl-layout-spacer"></div>
+            <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+                <div class="mdl-textfield__expandable-holder">
+                    <input class="mdl-textfield__input" type="text" id="search-field">
+                </div>
+            </div>
+            <!-- Navigation -->
+            <div class="android-navigation-container">
+                <nav class="android-navigation mdl-navigation">
+                    <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">Home</a>
+                    <a class="mdl-navigation__link mdl-typography--text-uppercase" href="contact.html">Contact Us</a>
+                </nav>
+            </div>
+            <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/mobuildlogo.png">
+          </span>
+        </div>
+    </div>
+    <div class="android-content mdl-layout__content">
+        <div class="android-be-together-section">
+            <p style="font-size: 30px;font-weight:200">We'd love to hear from you.</p>
+            <p style="font-size: 16px;font-weight:200;">Have a question, an feedback let us know. The team at Mobuild wants to hear it.</p>
+        </div>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--6-col-phone">
+                <div class="contact-section-container">
+                    <div class="contact-box-container-first-item">
+                        <div style="padding:10px;width:36px;height:36px;border-radius:50%;border:2px solid #4285f4;text-align:center;">
+                            <i class="material-icons" style="font-size: 36px;color:#4285f4;">home</i>
+                        </div>
+
+                        <div style="margin-left:10px;">
+                            <p class="mdl-contact--title">Mobuild INC</p>
+                            <p class="contact-box-para">158 Prem Nagar</p>
+                            <p class="contact-box-para">Hisar, Haryana 125001</p>
+                            <p class="contact-box-para">India</p>
+                        </div>
+                    </div>
+                   <div class="contact-box-container">
+                        <div style="padding:10px;width:36px;height:36px;border-radius:50%;border:2px solid #4285f4;text-align:center;">
+                            <i class="material-icons" style="font-size: 36px;color:#4285f4;">phone</i>
+                        </div>
+                        <div style="margin-left:10px;">
+                            <p class="mdl-contact--title">+91-9999999999</p>
+                        </div>
+                    </div>
+                    <div class="contact-box-container">
+                        <div style="padding:10px;width:36px;height:36px;border-radius:50%;border:2px solid #4285f4;text-align:center;">
+                            <i class="material-icons" style="font-size: 36px;color:#4285f4;">email</i>
+                        </div>
+
+                        <div style="margin-left:10px;">
+                            <p class="mdl-contact--title">ajaybeniwal203@gmail.com</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--6-col-phone ">
+
+                <form style="padding:40px;">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="display: block;width:100%;">
+                        <input class="mdl-textfield__input" type="text" id="name">
+                        <label class="mdl-textfield__label" for="sample1">Name</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="display: block;width:100%;">
+                        <input class="mdl-textfield__input" type="text" id="email">
+                        <label class="mdl-textfield__label" for="sample1">Email</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="display: block;width:100%;">
+                        <input class="mdl-textfield__input" type="text" id="phoneno">
+                        <label class="mdl-textfield__label" for="sample1">Phone Number</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" style="display: block;width:100%;">
+                        <textarea class="mdl-textfield__input" type="text" rows="3" id="comments"></textarea>
+                        <label class="mdl-textfield__label" for="sample5">Your comments</label>
+                    </div>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick="clickMessage()">
+                    SEND MESSAGE
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase-database.js"></script>
+<script>
+     // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+  var config = {
+    apiKey: "AIzaSyBUgGm96nskaCQyAzBDmbW7xUeAvQgV0dE",
+    databaseURL: "https://mobuild-235d0.firebaseio.com",
+  };
+  firebase.initializeApp(config);
+  var database = firebase.database();
+
+  function clickMessage(){
+    var name = document.querySelector("#name").value;
+    var email = document.querySelector("#email").value;
+    var phoneNumber = document.querySelector("#phoneno").value;
+    var comments = document.querySelector("#comments").value;
+    var jsonToPost = {name:name,email:email,phoneNumber:phoneNumber,comments:comments};
+    database.ref('Comments').set(jsonToPost);
+    alert("Thanks for submitting your query we will get back shortly")
+    
+  }
+</script>
+
+
+
+<body>

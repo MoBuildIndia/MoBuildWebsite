@@ -1,0 +1,14 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/ajasingh/.nvm/versions/node/v6.5.0/bin/node /Users/ajasingh/.nvm/versions/node/v6.5.0/bin/firebase serve
+[debug] CLI Version:  3.5.0
+[debug] Platform:     darwin
+[debug] Node Version: v6.5.0
+[debug] Time:         Wed May 24 2017 15:18:43 GMT+0800 (SGT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/ajasingh/Development/Mobuild
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000

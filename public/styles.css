@@ -434,6 +434,41 @@ a img{
     max-width: 100%;
   }
 
+  .contact-section-container{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contact-section-container .contact-box-container-first-item{
+     width:300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top:20px;
+  }
+  .contact-section-container .contact-box-container{
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top:20px;
+  }
+  .contact-box-para{
+    color: #455a64;
+    font-size:16px;
+    font-weight:300;
+    margin-bottom:5px;
+  }
+
+  .mdl-contact--title{
+     color: #455a64;
+    font-size:22px;
+    font-weight:300;
+    margin-bottom:5px;
+  }
+ 
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
