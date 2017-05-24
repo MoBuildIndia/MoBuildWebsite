@@ -468,6 +468,10 @@ a img{
     font-weight:300;
     margin-bottom:5px;
   }
+
+  .mdl-layout__header .mdl-layout__drawer-button .material-icons{
+    margin-top:12px;
+  }
  
 
 /**** Mobile layout ****/

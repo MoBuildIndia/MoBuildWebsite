@@ -44,14 +44,35 @@
 </head>
 
 <body>
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
+    <header class="android-header mdl-layout__header mdl-layout__header--waterfall">
 
-    <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
       <div class="mdl-layout__header-row">
         <span class="android-title mdl-layout-title">
             <img class="android-logo-image" src="images/mobuildlogo.png">
           </span>
-        <!-- Add spacer, to align navigation to the right in desktop -->
+        <div class="mdl-layout-spacer"></div>
+        <nav class="android-navigation mdl-navigation">
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">Home</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="contact.html">Contact Us</a>
+        </nav>
+        <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/mobuildlogo.png">
+          </span>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <nav class="android-navigation mdl-navigation">
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">Home</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+    <!--<div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+      <div class="mdl-layout__header-row">
+        <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/mobuildlogo.png">
+          </span>
+        
         <div class="android-header-spacer mdl-layout-spacer"></div>
         <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
 
@@ -59,7 +80,7 @@
             <input class="mdl-textfield__input" type="text" id="search-field">
           </div>
         </div>
-        <!-- Navigation -->
+        
         <div class="android-navigation-container">
           <nav class="android-navigation mdl-navigation">
             <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">Home</a>
@@ -71,7 +92,7 @@
           </span>
 
       </div>
-    </div>
+    </div>-->
 
 
 
@@ -83,16 +104,16 @@
       <div class="android-screen-section mdl-typography--text-center">
         <a name="screens"></a>
         <div class="mdl-typography--display-1-color-contrast">The platforms we build apps for</div>
-         <div class="android-screens">
-           <div class="android-phone android-screen">
+        <div class="android-screens">
+          <div class="android-phone android-screen">
             <a class="android-image-link" href="">
               <img class="android-screen-image" style="height:90px;width:90px;" src="images/Apple_iOS_new.svg">
             </a>
             <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">IOS</a>
           </div>
-          <div class="android-phone android-screen" >
+          <div class="android-phone android-screen">
             <a class="android-image-link" href="">
-              <i class= "material-icons" style="font-size:85px;color:#8bc34a" role="presentation">android</i>
+              <i class="material-icons" style="font-size:85px;color:#8bc34a" role="presentation">android</i>
             </a>
             <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android</a>
           </div>
@@ -102,8 +123,8 @@
             </a>
             <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">RaspberryPI</a>
           </div>
-         </div>
-        
+        </div>
+
       </div>
       <div class="android-screen-section mdl-typography--text-center">
         <a name="screens"></a>
@@ -131,106 +152,106 @@
 
         </div>
       </div>
-      
+
       <div class="android-wear-section">
         <div class="mdl-typography--display-1-color-contrast mdl-typography--text-center">The process we follow</div>
         <div class="android-wear-band">
           <img src="images/development.png" class="responsive-image">
-          <div> 
+          <div>
+          </div>
         </div>
-      </div>
 
-      
 
-      <div class="android-more-section">
-        <div class="mdl-typography--display-1-color-contrast mdl-typography--text-center">More from MoBuild</div>
-        <a name="screen"></a>
-        <div class="android-card-container mdl-grid">
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-            <div class="mdl-card__media">
-              <img src="images/more-from-4.png" style="height:160px">
-            </div>
-            <div class="mdl-card__title">
-              <h4 class="mdl-card__title-text">Design</h4>
-            </div>
-            <div class="mdl-card__supporting-text">
-              <span class="mdl-typography--font-light mdl-typography--subhead">Whatever kind of app you need for your business, as an experienced partnes we will design and build the perfect solution for you.</span>
-            </div>
-            <div class="mdl-card__actions">
-              <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+
+        <div class="android-more-section">
+          <div class="mdl-typography--display-1-color-contrast mdl-typography--text-center">More from MoBuild</div>
+          <a name="screen"></a>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-4.png" style="height:160px">
+              </div>
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">Design</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Whatever kind of app you need for your business, as an experienced partnes we will design and build the perfect solution for you.</span>
+              </div>
+              <div class="mdl-card__actions">
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
                    Contact Us
                    <i class="material-icons">chevron_right</i>
                  </a>
+              </div>
             </div>
-          </div>
 
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-            <div class="mdl-card__media">
-              <img src="images/IOT.png" style="height:160px">
-            </div>
-            <div class="mdl-card__title">
-              <h4 class="mdl-card__title-text">Internet Of Things</h4>
-            </div>
-            <div class="mdl-card__supporting-text">
-              <span class="mdl-typography--font-light mdl-typography--subhead">We help you integrate and automate any kind of IOT solution from home devices to Industrial application varying across all sectors </span>
-            </div>
-            <div class="mdl-card__actions">
-              <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/IOT.png" style="height:160px">
+              </div>
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">Internet Of Things</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">We help you integrate and automate any kind of IOT solution from home devices to Industrial application varying across all sectors </span>
+              </div>
+              <div class="mdl-card__actions">
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
                    Contact Us !!
                    <i class="material-icons">chevron_right</i>
                  </a>
+              </div>
             </div>
-          </div>
 
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-            <div class="mdl-card__media">
-              <img src="images/MVP.jpg" style="height:160px">
-            </div>
-            <div class="mdl-card__title">
-              <h4 class="mdl-card__title-text">MVP</h4>
-            </div>
-            <div class="mdl-card__supporting-text">
-              <span class="mdl-typography--font-light mdl-typography--subhead">We help you quickly turn your ideas into Minimal Viable Product using Agile delivery model .</span>
-            </div>
-            <div class="mdl-card__actions">
-              <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/MVP.jpg" style="height:160px">
+              </div>
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">MVP</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">We help you quickly turn your ideas into Minimal Viable Product using Agile delivery model .</span>
+              </div>
+              <div class="mdl-card__actions">
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
                    LEARN MORE
                    <i class="material-icons">chevron_right</i>
                  </a>
+              </div>
             </div>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-            <div class="mdl-card__media">
-              <img src="images/BillingImage.png" style="height:160px">
-            </div>
-            <div class="mdl-card__title">
-              <h4 class="mdl-card__title-text">Agile Billing</h4>
-            </div>
-            <div class="mdl-card__supporting-text">
-              <span class="mdl-typography--font-light mdl-typography--subhead">Our moto is quality first but we ensure that the solution is cost effective as well, we follow agile biling practices</span>
-            </div>
-            <div class="mdl-card__actions">
-              <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/BillingImage.png" style="height:160px">
+              </div>
+              <div class="mdl-card__title">
+                <h4 class="mdl-card__title-text">Agile Billing</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Our moto is quality first but we ensure that the solution is cost effective as well, we follow agile biling practices</span>
+              </div>
+              <div class="mdl-card__actions">
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
                    LEARN MORE
                    <i class="material-icons">chevron_right</i>
                  </a>
+              </div>
             </div>
-          </div>
 
-         
+
+          </div>
         </div>
+
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--bottom-section">
+            <a class="android-link mdl-typography--font-light" href="">Blog</a>
+            <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
+          </div>
+
+        </footer>
       </div>
-
-      <footer class="android-footer mdl-mega-footer">
-        <div class="mdl-mega-footer--bottom-section">
-          <a class="android-link mdl-typography--font-light" href="">Blog</a>
-          <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
-        </div>
-
-      </footer>
     </div>
-  </div>
-  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
 
 </html>
