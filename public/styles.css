@@ -562,4 +562,11 @@ a img{
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
+
+  .contact-section-container .contact-box-container-first-item{
+    width: 100%;
+  }
+  .contact-section-container .contact-box-container{
+    width: 100%;
+  }
 }
