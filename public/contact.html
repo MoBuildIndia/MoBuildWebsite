@@ -136,7 +136,7 @@
     var phoneNumber = document.querySelector("#phoneno").value;
     var comments = document.querySelector("#comments").value;
     var jsonToPost = {name:name,email:email,phoneNumber:phoneNumber,comments:comments};
-    database.ref('Comments').set(jsonToPost);
+    database.ref('Comments').push(jsonToPost);
     alert("Thanks for submitting your query we will get back shortly")
     
   }
