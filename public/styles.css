@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-body {
+ body {
   margin: 0;
 }
 
@@ -278,13 +278,6 @@ a img{
     height: 300px;
     z-index: 1;
   }
-
-
-.android-wear-section {
- 
-}
-
-
 
 .android-link {
   text-decoration: none;
@@ -560,7 +553,7 @@ a img{
   }
 
   .android-footer .mdl-mega-footer--bottom-section {
-    display: none;
+    display: inline-block;
   }
 
   .contact-section-container .contact-box-container-first-item{
