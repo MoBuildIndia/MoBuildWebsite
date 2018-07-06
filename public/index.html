@@ -16,6 +16,32 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
   <link rel="stylesheet" href="styles.css">
+   <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="MoBuild">
+  <!-- for windows-->
+  <meta name="msapplication-TileImage">
+  <meta name="msapplication-TileColor">
+  <!-- link for icon of different sizes and manifest file-->
+  <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
   <style>
     #view-source {
       position: fixed;
@@ -54,12 +80,9 @@
       </nav>
     </div>
    
-
-
-
     <div class="android-content mdl-layout__content">
       <div class="android-be-together-section">
-        <p style="font-size: 24px;font-weight:200">Build your Business For The Future And Partner with Mobuild</p>
+        <p style="font-size: 24px;font-weight:300">Build your Business For The Future And Partner with Mobuild</p>
         <p style="font-size: 16px;font-weight:200;">A new way to deliver amazing digital future with the help of mobile and IOT apps.</p>
       </div>
       <div class="android-screen-section mdl-typography--text-center">
@@ -117,7 +140,7 @@
       <div class="android-wear-section">
         <div class="mdl-typography--display-1-color-contrast mdl-typography--text-center">The process we follow</div>
         <div class="android-wear-band">
-          <img src="images/development.png" class="responsive-image">
+          <img src="images/agile-development-process.png" class="responsive-image" style ="width: 90%; padding-top: 20px">
           <div>
           </div>
         </div>
@@ -139,8 +162,8 @@
                 <span class="mdl-typography--font-light mdl-typography--subhead">Whatever kind of app you need for your business, as an experienced partnes we will design and build the perfect solution for you.</span>
               </div>
               <div class="mdl-card__actions">
-                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="contact.html">
-                   Contact Us
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="design.html">
+                   LEARN MORE
                    <i class="material-icons">chevron_right</i>
                  </a>
               </div>
@@ -157,8 +180,8 @@
                 <span class="mdl-typography--font-light mdl-typography--subhead">We help you integrate and automate any kind of IOT solution from home devices to Industrial application varying across all sectors </span>
               </div>
               <div class="mdl-card__actions">
-                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="contact.html">
-                   Contact Us 
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="iot.html">
+                   LEARN MORE
                    <i class="material-icons">chevron_right</i>
                  </a>
               </div>
@@ -175,7 +198,7 @@
                 <span class="mdl-typography--font-light mdl-typography--subhead">We help you quickly turn your ideas into Minimal Viable Product using Agile delivery model .</span>
               </div>
               <div class="mdl-card__actions">
-                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="mvp.html">
                    LEARN MORE
                    <i class="material-icons">chevron_right</i>
                  </a>
@@ -183,7 +206,7 @@
             </div>
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <img src="images/BillingImage.png" style="height:160px">
+                <img src="images/BillingImage.jpg" style="height:160px">
               </div>
               <div class="mdl-card__title">
                 <h4 class="mdl-card__title-text">Agile Billing</h4>
@@ -192,7 +215,7 @@
                 <span class="mdl-typography--font-light mdl-typography--subhead">Our moto is quality first but we ensure that the solution is cost effective as well, we follow agile biling practices</span>
               </div>
               <div class="mdl-card__actions">
-                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="agile billing.html">
                    LEARN MORE
                    <i class="material-icons">chevron_right</i>
                  </a>
@@ -205,14 +228,17 @@
 
         <footer class="android-footer mdl-mega-footer">
           <div class="mdl-mega-footer--bottom-section">
-            <a class="android-link mdl-typography--font-light" href="">Blog</a>
-            <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
+            <a class="android-link mdl-typography--font-light" href="https://medium.com/@MobuildI">Blog</a>
+            <a class="android-link mdl-typography--font-light" href="privacy.html">Privacy Policy</a>
+            <a class="android-link mdl-typography--font-light" href="https://www.facebook.com/mobuildINC/">Facebook</a>  
+            <a class="android-link mdl-typography--font-light" href="https://twitter.com/MobuildI">Twitter</a>             
           </div>
 
         </footer>
       </div>
     </div>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
